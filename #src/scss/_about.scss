@@ -1,0 +1,71 @@
+
+.title-emp{
+    text-align: center;
+    color: white;
+    padding: 20px 0px 20px 0px;
+
+}
+.card-text{
+    font-size: 20px;
+    font-style: "Lato";
+    
+    
+    
+    color: rgb(252, 248, 248);
+
+    @media(max-width: 1280px){
+        font-size: 16px; 
+        line-height: 16px;
+        
+    }
+    @media(max-width: $md2+px){
+        font-size: 14px;
+    }
+    @media(max-width: $md3+px){
+        font-size: 18px;
+    }
+    @media(max-width: $md4+px){
+        font-size: 14px;
+    }
+
+}
+.card-title{
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+    
+.wrapper-abt{
+   background:black;
+}
+
+th, td{
+    color: white;
+    @media(max-width: 430px){
+        display: block;
+        width: 100%;
+
+      
+      
+    }
+}
+th{
+    @media(max-width: 430px){
+        text-align: end;
+       
+    }
+}
+
+
+
+.card-body, .col-md-4{
+    background:black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgb(102, 74, 74);
+}
+.nav-link{
+    color: rgb(102, 74, 74);
+}

@@ -1,0 +1,61 @@
+
+@font-face{
+    font-family: "icons";
+    font-display: swap;
+    src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2#icons") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+%ic{
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="_icon-"],
+[class*="icon-"]{
+    &::before {
+        @extend %ic;
+        display: block;
+    }
+    
+}
+
+._icon-burger_line_list_menu_nav_navigation_option_icon_123231:before {
+    content: "\e900";
+  }
+  ._icon-Vector-checkbox:before {
+    content: "\e903";
+    color: #e5e5e5;
+  }
+  ._icon-Vector-right:before {
+    content: "\e905";
+  }
+  ._icon-phone:before {
+    content: "\e942";
+    color:white;
+  }
+  ._icon-location:before {
+    content: "\e947";
+    color:white;
+  }
+  ._icon-instagram:before {
+    content: "\ea92";
+    color:red;
+  }
+  ._icon-telegram:before {
+    content: "\ea95";
+    color:rgb(21, 124, 241);
+  }
+  ._icon-vk:before {
+    content: "\ea98";
+    color:blue;
+  }
+  

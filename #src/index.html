@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>LuxeAuto / Home </title>
+</head>
+<body>
+    @@include('_header.html')
+    <main class="page">
+      <div class="page__main-block main-block">
+          <div class="main-block__container _container">
+            
+              <div class="main-block__body">
+                <div class="main-block__info info">
+                    <div class="info__text">
+                      <span class="text1">
+                        LuxeAuto —
+                      </span>  
+                      <span class="text2">
+                        это компания, представляющая автомобильный бренд в одной или нескольких географических точках, имеющая обученный персонал, финансовые ресурсы, а также торговые, производственные и складские площадки,
+                        оборудованные в соответствии с требованиями дилерских стандартов, для розничной или оптовой продажи,
+                        предпродажного и послепродажного сервисного обслуживания автомобилей.
+                      </span>
+                    </div>
+                  </div>
+                  <h1 class="main-block__title">LuxeAuto.com</h1>
+                  <div class="main-block__buttons">
+                      <a href="about.html" class="main-block__button main-block__button_active">Learn More</a>
+                      <a href="catalog.html" class="main-block__button main-block__button_border">Info-catalog</a>
+                  </div>
+                  
+              </div>
+              
+          </div>
+          <div class="main-block__image _ibg">
+             <img src="img/intro1.jpg" alt="avto"> 
+          </div>
+      </div>
+      <section class="page__brands brands">
+        <div class="brands__container _container">
+            <div class="brands__title">Популярные авто</div>
+            <div class="brands__body">
+                <div class="brands__column">
+                    <div class="brands__image">
+                        <img src="img/BMW_F80_Sight_Black_598196_600x400.jpg" alt="auto#1">
+                    </div>
+                </div>
+                <div class="brands__column">
+                    <div class="brands__image">
+                        <img src="img/Mercedes-Benz_AMG_C-Class_C205_Coupe_Front_Motion_554021_600x400.jpg" alt="auto#2">
+                    </div>
+                </div>
+                <div class="brands__column">
+                    <div class="brands__image">
+                        <img src="img/Rimac_Nevera_2021_Side_Metallic_605867_600x400.jpg" alt="auto#3">
+                    </div>
+                </div>
+                <div class="brands__column">
+                    <div class="brands__image">
+                        <img src="img/Side_Opened_door_605899_600x400.jpg" alt="auto#4">
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+      </section>
+       <!-- Swiper -->
+       <h2 class="slider__title">
+           Бренды
+       </h2>
+    <div class="swiper mySwiper">
+       
+        <div class="swiper-wrapper">
+            
+          <div class="swiper-slide">
+              <img src="img/aston_martin.png" alt="">
+            </div>
+          <div class="swiper-slide">
+            <img src="img/bentley.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/bmw.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/bugatti.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/jaguar.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/lamborghini.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/lexus.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/porsche.png" alt="">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/tesla.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/ferrari.png" alt="">
+        </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </main>
+    @@include('_footer.html')
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/script.min.js"> </script>
+</body>
+</html>
